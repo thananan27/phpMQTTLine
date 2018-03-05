@@ -1,0 +1,6 @@
+{
+  "name": "LINE NETPIE: PHP",
+  "description": "A example for LINE connect to NETPIE",
+  "repository": "https://github.com/heroku/php-getting-started",
+  "addons": []
+}
