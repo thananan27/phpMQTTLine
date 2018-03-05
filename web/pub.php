@@ -3,7 +3,7 @@
 
   function pubMqtt($topic,$msg){
        
-      put("https://api.netpie.io/topic/{LinBot}/$topic?retain",$msg);
+      put("https://api.netpie.io/topic/LinBot/$topic?retain",$msg);
  
   }
   function getMqttfromlineMsg($lineMsg){
@@ -36,7 +36,7 @@ function put($url,$tmsg)
      
     curl_setopt($ch, CURLOPT_POSTFIELDS, $tmsg);
  
-    curl_setopt($ch, CURLOPT_USERPWD, "{lb6UDoBXAdJQIAm}:{RwlqCl26MIKNVm2JQtTDCCqFf}");
+    curl_setopt($ch, CURLOPT_USERPWD, "lb6UDoBXAdJQIAm:RwlqCl26MIKNVm2JQtTDCCqFf");
      
     $response = curl_exec($ch);
      
